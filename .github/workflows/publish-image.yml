@@ -30,8 +30,8 @@ jobs:
         ECR_REGISTRY: "${{ secrets.ACCOUNT_NUMBER }}.dkr.ecr.${{ env.REGION }}.amazonaws.com"
         ECR_REPOSITORY: "nastasyafedotovna"
       with:
-        image: $ECR_REGISTRY/$ECR_REPOSITORY:${{ github.sha }}
-        tags: v1, latest
+        image: $ECR_REGISTRY/$ECR_REPOSITORY
+        tags: ${{ github.sha }}, latest
         registry: $ECR_REGISTRY
         dockerfile: Dockerfile
 
