@@ -8,7 +8,7 @@ name: push-docker-image-to-registry
 on:
   workflow_run:
     workflows:
-      - pylint-pytest
+      - snyk-monitor
     types: 
       - completed
     branches:
