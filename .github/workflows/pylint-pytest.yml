@@ -5,8 +5,14 @@ name: pylint-pytest
 
 on:
   push:
+    paths-ignore:
+      - '*.md'
+      - '.github/workflows/**'
     branches: [ main ]
   pull_request:
+    paths-ignore:
+      - '*.md'
+      - '.github/workflows/**'
     branches: [ main ]
 
 jobs:
