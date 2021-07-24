@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion": "3",
+  "Image": {
+    "Name": "docker.io/nastasyafedotovna/andersen-exam-python"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "8000"
+    }
+  ]
+}
