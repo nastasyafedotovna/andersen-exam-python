@@ -74,4 +74,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: analyze source code with bandit
       run: |
-        bandit -c bandit.yml -r .
+        bandit -c bandit.yml -s B104 -r .
