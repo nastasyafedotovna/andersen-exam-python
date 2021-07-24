@@ -6,7 +6,7 @@
     "containerDefinitions": [
         {
             "name": "helloworld-python-andersen-exam",
-            "image": "docker.io/nastasyafedotovna/test-ci-cd:main",
+            "image": "docker.io/nastasyafedotovna/andersen-exam-python:main",
             "resourceRequirements": null,
             "essential": true,
             "portMappings": [
