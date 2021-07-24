@@ -23,7 +23,7 @@ env:
 
 
 jobs:
-  build:
+  build-login-push:
 
     runs-on: ubuntu-latest
     permissions:
