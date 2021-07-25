@@ -5,6 +5,7 @@
     "inferenceAccelerators": [],
     "containerDefinitions": [
         {
+            "name": "andersen-exam-python-helloworld",
             "resourceRequirements": null,
             "essential": true,
             "portMappings": [
