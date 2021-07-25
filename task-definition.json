@@ -1,0 +1,29 @@
+{
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "inferenceAccelerators": [],
+    "containerDefinitions": [
+        {
+            "name": "andersen-python-helloworld",
+            "image": "andersen-python-exam:00000",
+            "resourceRequirements": null,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": "8000",
+                    "protocol": "tcp"
+                }
+                
+            ]
+        }
+    ],
+    "volumes": [],
+    "networkMode": "awsvpc",
+    "memory": "256",
+    "cpu": "256",
+    "executionRoleArn": "arn:aws:iam::406496705539:role/ecs-devops-sandbox-execution-role",
+    "family": "andersen-exam",
+    "taskRoleArn": "",
+    "placementConstraints": []
+}я
