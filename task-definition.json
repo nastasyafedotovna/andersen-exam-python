@@ -19,7 +19,7 @@
     ],
     "volumes": [],
     "networkMode": "awsvpc",
-    "memory": "256",
+    "memory": "512",
     "cpu": "256",
     "executionRoleArn": "arn:aws:iam::406496705539:role/ecs-devops-sandbox-execution-role",
     "family": "andersen-exam",
