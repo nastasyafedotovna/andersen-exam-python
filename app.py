@@ -1,4 +1,4 @@
-"""Simple flask app which print message . """
+"""Simple flask app which print message """
 from flask import Flask
 app = Flask(__name__)
 
