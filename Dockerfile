@@ -18,7 +18,7 @@ RUN pip3 install -r requirements.txt && \
     /usr/local/lib/python*/site-packages/*/__pycache__/*
 
 
-#asdasdada
+#asdasdadaawdasd
 FROM alpine
 MAINTAINER Gizar Zigangirov 'gizar.zigangirov@gmail.com'
 COPY --from=build-stage . .
