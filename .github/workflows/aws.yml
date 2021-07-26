@@ -82,5 +82,5 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: andersen-exam-service 
-        cluster: andersen-exam-cluster
+        cluster: andersen-exam-python-cluster 
         wait-for-service-stability: true
