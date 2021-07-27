@@ -21,5 +21,8 @@ RUN pip3 install -r requirements.txt && \
 FROM alpine
 MAINTAINER Gizar Zigangirov 'gizar.zigangirov@gmail.com'
 COPY --from=build-stage . .
+
+EXPOSE 80
+
 ENTRYPOINT ["python3"]
 CMD ["app.py"]
