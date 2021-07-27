@@ -1,4 +1,4 @@
-[![publish-image-to-ecr-and-deploy-to-ecs](https://github.com/nastasyafedotovna/andersen-exam-python/actions/workflows/aws.yml/badge.svg)](https://github.com/nastasyafedotovna/andersen-exam-python/actions/workflows/aws.yml)
+[![pylint-pytest-bandit-deploy](https://github.com/nastasyafedotovna/andersen-exam-python/actions/workflows/pylint-pytest-bandit-deploy.yml/badge.svg?branch=main)](https://github.com/nastasyafedotovna/andersen-exam-python/actions/workflows/pylint-pytest-bandit-deploy.yml)
 
 # Python hello world web app
 + CI/CD: [**Github Actions**](https://docs.github.com/en/actions):
