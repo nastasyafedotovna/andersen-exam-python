@@ -85,6 +85,6 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: web-service
+        service: andersen-exam-python-service
         cluster: andersen-exam-python-cluster
         wait-for-service-stability: true
