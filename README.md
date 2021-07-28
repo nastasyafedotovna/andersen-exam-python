@@ -7,5 +7,5 @@
     + Deploy to AWS ECS-EC2
 + SCM/ControlVersion: [**GitHub.com**](https://github.com)
 + Registry: **AWS ECR**
-+ Infrastructure: [**Terraform**](https://www.terraform.io) + **AWS** 
-+ IaC: [**Infrastructure**](https://github.com/nastasyafedotovna/andersen-exam-python-infrastructure)
++ Infrastructure: [**Terraform**](https://www.terraform.io) + [**AWS**](https://aws.amazon.com/) 
++ IaC: [**Infrastructure repo**](https://github.com/nastasyafedotovna/andersen-exam-python-infrastructure)
